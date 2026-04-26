@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleYum</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="PurpleYum logo" class="logo-img">
+                <span class="logo-text">PurpleYum</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Home</a>
+                <a href="#features">Features</a>
+                <a href="#showcase">Gallery</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-blur-1"></div>
+                <div class="hero-blur-2"></div>
+            </div>
+            <div class="hero-container">
+                <div class="hero-grid">
+                    <div class="hero-phone">
+                        <div class="phone-outer">
+                            <div class="phone-inner">
+                                <div class="phone-screen">
+                                    <img src="image1.jpg" alt="PurpleYum app preview" class="phone-preview">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <p class="hero-subtitle">Modern cake pick-up experience</p>
+                        <h1 class="hero-title">Experience Cake, the PurpleYum Way</h1>
+                        <p class="hero-desc">A premium app for discovering handcrafted cakes, easy online ordering, and convenient pick-up experiences.</p>
+                        <button class="download-btn" onclick="downloadApp()">
+                            Download App
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7,10 12,15 17,10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                        </button>
+                        <div class="hero-features">
+                            <div class="feature-item">Online ordering</div>
+                            <div class="feature-item">Secure payments</div>
+                            <div class="feature-item">Convenient pick-up</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Why Choose PurpleYum?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Artisanal Cakes</h3>
+                        <p class="feature-desc">Handcrafted confections made from premium ingredients</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="3" width="15" height="13"></rect>
+                                <polygon points="16,8 20,8 23,11 23,16 16,16 16,8"></polygon>
+                                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Convenient Pick-up</h3>
+                        <p class="feature-desc">Easy pick-up options at your preferred location</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Custom Designs</h3>
+                        <p class="feature-desc">Choose flavors, styles, and decorations for any occasion</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2 class="section-title">How It Works</h2>
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Choose Your Cake</h3>
+                        <p class="step-desc">Browse cake styles, flavors, and design options</p>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                                <line x1="1" y1="10" x2="23" y2="10"></line>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Pay Online</h3>
+                        <p class="step-desc">Secure online payment with multiple options</p>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                                <path d="M7 2v20"></path>
+                                <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Pick Up Your Cake</h3>
+                        <p class="step-desc">Convenient pick-up at your chosen time and location</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="showcase">
+            <div class="container">
+                <h2 class="section-title">See PurpleYum in Action</h2>
+                <div class="showcase-grid">
+                    <div class="showcase-item">
+                        <div class="showcase-img">
+                            <img src="screenshot1.jpg" alt="Screenshot 1">
+                        </div>
+                        <p class="showcase-desc">Browse cake collections online</p>
+                    </div>
+                    <div class="showcase-item">
+                        <div class="showcase-img">
+                            <img src="screenshot2.jpg" alt="Screenshot 2">
+                        </div>
+                        <p class="showcase-desc">Customize and pay online</p>
+                    </div>
+                    <div class="showcase-item">
+                        <div class="showcase-img">
+                            <img src="screenshot3.jpg" alt="Screenshot 3">
+                        </div>
+                        <p class="showcase-desc">Pick up your custom cake</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="avatar">SJ</div>
+                            <h4 class="testimonial-name">Sarah Johnson</h4>
+                        </div>
+                        <p class="testimonial-quote">"PurpleYum made cake ordering effortless. The design was perfect for my party!"</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="avatar">MC</div>
+                            <h4 class="testimonial-name">Mike Chen</h4>
+                        </div>
+                        <p class="testimonial-quote">"The cake arrived fresh and looked stunning. Easy pick-up process too."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="avatar">ED</div>
+                            <h4 class="testimonial-name">Emily Davis</h4>
+                        </div>
+                        <p class="testimonial-quote">"A beautiful cake for every celebration. The online payment was so convenient!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta">
+            <div class="container">
+                <h2 class="cta-title">Start your cake ordering with PurpleYum today</h2>
+                <p class="cta-desc">Join thousands of satisfied customers enjoying delicious meals.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3 class="footer-title">PurpleYum</h3>
+                    <p class="footer-desc">Delicious food, delivered with love.</p>
+                    <p class="footer-contact">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:axelyee12@gmail.com">axelyee12@gmail.com</a>
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/purpleyammalaybalay" target="_blank" rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PurpleYum. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
